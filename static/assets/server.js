@@ -14606,6 +14606,7 @@ module.exports = factory;
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+module.exports = {"font1":"ad28c010"};
 
 /***/ }),
 /* 234 */

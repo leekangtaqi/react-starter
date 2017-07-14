@@ -51,7 +51,7 @@ const config = {
         test: /\.scss$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          use: ['css-loader?modules', 'sass-loader']
+          use: ['css-loader?modules&localIdentName=[hash:8]', 'sass-loader']
         })
       },
       {
@@ -60,7 +60,7 @@ const config = {
         use: [
           'style-loader',
           {
-            loader: 'css-loader?modules',
+            loader: 'css-loader?modules&localIdentName=[hash:8]',
             options: {
               importLoaders: 2,
               sourceMap: true
